@@ -54,5 +54,15 @@
     // "java.errors.incompleteClasspath.severity": "ignore",
 
 
-    "terminal.integrated.shellArgs.windows": ["-NoExit", "/c", "chcp 65001"],
+    "terminal.integrated.shellArgs.windows": [
+        "-NoExit",
+        "/c",
+        "chcp 65001"
+    ],
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
 }
