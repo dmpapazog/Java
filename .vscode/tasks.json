@@ -1,0 +1,52 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+
+
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "cd",
+            "problemMatcher": "$jshint",
+            "args": [
+                "${fileDirname};",
+                "javac",
+                "-g",
+                "${fileBasename}",
+                "-d",
+                "${workspaceFolder}\\bin"
+
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            }
+        },
+        {
+            "label": "build & run",
+            "type": "shell",
+            "dependsOn": "build",
+            "command": "cd",
+            "args": [
+                "${workspaceFolder}\\bin;",
+                "java",
+                "${fileBasenameNoExtension}",
+
+            ],
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            }
+        }
+    ]
+}

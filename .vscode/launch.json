@@ -6,9 +6,18 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Debug (Launch) - Current File",
+            "name": "No - Input File",
             "request": "launch",
-            "mainClass": "${file}"
+            "mainClass": "${file}",
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "type": "java",
+            "name": "With - Input File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen"
         }
     ]
 }
