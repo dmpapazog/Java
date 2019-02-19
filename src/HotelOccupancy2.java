@@ -1,6 +1,8 @@
-import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 
-public class HotelOccupancy2 {
+public class HotelOccupancy2 extends JOptionPane {
+
+    public static final long serialVersionUID = 1L;
 
     public static void main(String[] args) {
         String userInput;

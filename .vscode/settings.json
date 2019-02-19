@@ -1,5 +1,5 @@
 {
     "code-runner.executorMap": {
-        "java": "cd $dir\\..\\bin && java $fileNameWithoutExt",
+        "java": "chcp 65001 && cd $dir\\..\\bin && java $fileNameWithoutExt",
       }
 }

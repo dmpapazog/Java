@@ -9,7 +9,6 @@
             "label": "build",
             "type": "shell",
             "command": "cd",
-            "problemMatcher": "$jshint",
             "args": [
                 "${fileDirname};",
                 "javac",
@@ -23,21 +22,15 @@
                 "kind": "build",
                 "isDefault": true
             },
-            "presentation": {
-                "echo": true,
-                "reveal": "always",
-                "focus": false,
-                "panel": "shared",
-                "showReuseMessage": true,
-                "clear": false
-            }
         },
         {
             "label": "build & run",
             "type": "shell",
             "dependsOn": "build",
-            "command": "cd",
+            "command": "chcp",
             "args": [
+                "65001;",
+                "cd",
                 "${workspaceFolder}\\bin;",
                 "java",
                 "${fileBasenameNoExtension}",
@@ -46,6 +39,9 @@
             "group": {
                 "kind": "test",
                 "isDefault": true
+            },
+            "presentation": {
+                "focus": true,
             }
         }
     ]

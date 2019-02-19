@@ -27,7 +27,7 @@ public class StarPattern {
 
         StarPattern obj = new StarPattern();
         
-        System.out.print("Enter the character to print: ");
+        System.out.print("€€€ Enter the character to print: ");
         character = userInput.nextLine();
         System.out.print("Enter the position of the widest row: ");
         widestRow = userInput.nextInt();
