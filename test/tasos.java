@@ -7,7 +7,7 @@ public class tasos extends JOptionPane{
     public static void main(String[] args) {
         
         String outputMessage = "Auto 8a dei3ei to munhma";
-        String titlos = "O titlos tou para8urou";
+        String titlos        = "O titlos tou para8urou";
         showMessageDialog(null, 
                           outputMessage, 
                           titlos, 
