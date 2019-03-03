@@ -5,6 +5,7 @@ public class math {
         // Math functions
         System.out.println("abs(-1) = " + Math.abs(-1) + '\n');
 
+        
         System.out.println("ceil(4.5)  = " + Math.ceil(4.5));
         System.out.println("floor(4.5) = " + Math.floor(4.5));
         System.out.println("round(4.5) = " + Math.round(4.5) + '\n');
