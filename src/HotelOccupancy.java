@@ -2,6 +2,7 @@ import javax.swing.JOptionPane;
 
 public class HotelOccupancy extends JOptionPane{
 
+    
     private static final long serialVersionUID = 1L; 
 
     public static void main(String[] args) {
