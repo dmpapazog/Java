@@ -16,16 +16,15 @@
                 "${fileBasename}",
                 "-d",
                 "${workspaceFolder}\\bin"
-
             ],
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
-
             "presentation": {
-                "focus": true,
-            }
+                "focus": true
+            },
+            "problemMatcher": []
         },
         {
             "label": "build & run",
@@ -37,15 +36,14 @@
                 "cd",
                 "${workspaceFolder}\\bin;",
                 "java",
-                "${fileBasenameNoExtension}",
-
+                "${fileBasenameNoExtension}"
             ],
             "group": {
                 "kind": "test",
                 "isDefault": true
             },
             "presentation": {
-                "focus": true,
+                "focus": true
             }
         }
     ]

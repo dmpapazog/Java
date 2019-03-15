@@ -9,7 +9,8 @@
             "name": "No - Input File",
             "request": "launch",
             "mainClass": "${file}",
-            "internalConsoleOptions": "openOnSessionStart"
+            "internalConsoleOptions": "openOnSessionStart",
+            "stopOnEntry": true
         },
         {
             "type": "java",
