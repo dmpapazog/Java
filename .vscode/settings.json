@@ -1,5 +1,6 @@
 {
     "code-runner.executorMap": {
-        "java": "chcp 65001 && cd $workspaceRoot\\bin && C:\\Java\\jdk-11.0.2\\bin\\java $fileNameWithoutExt",
-      }
+        "java": "chcp 65001 && cd $workspaceRoot\\class && C:\\Java\\jdk-11.0.2\\bin\\java $fileNameWithoutExt",
+      },
+    "code-runner.runInTerminal": true
 }

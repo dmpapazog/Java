@@ -15,7 +15,7 @@
                 "-g",
                 "${fileBasename}",
                 "-d",
-                "${workspaceFolder}\\bin"
+                "${workspaceFolder}\\class"
             ],
             "group": {
                 "kind": "build",
@@ -34,8 +34,8 @@
             "args": [
                 "65001;",
                 "cd",
-                "${workspaceFolder}\\bin;",
-                "java",
+                "${workspaceFolder}\\class;",
+                "C:\\Java\\jdk-11.0.2\\bin\\java",
                 "${fileBasenameNoExtension}"
             ],
             "group": {
